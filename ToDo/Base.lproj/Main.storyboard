@@ -156,7 +156,7 @@
                                                     </connections>
                                                 </datePicker>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oTD-Fg-fcw">
-                                                    <rect key="frame" x="48" y="23" width="95.5" height="16"/>
+                                                    <rect key="frame" x="16" y="23" width="95.5" height="16"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="lPI-pA-ymW">
                                                             <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
@@ -178,7 +178,7 @@
                                                     </constraints>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5Pa-Bv-eCg">
-                                                    <rect key="frame" x="261" y="23" width="66" height="16"/>
+                                                    <rect key="frame" x="293" y="23" width="66" height="16"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell" translatesAutoresizingMaskIntoConstraints="NO" id="dor-2E-qcM">
                                                             <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
@@ -205,9 +205,9 @@
                                                 <constraint firstItem="oTD-Fg-fcw" firstAttribute="top" secondItem="yTh-S6-ZtL" secondAttribute="topMargin" constant="12" id="QWT-Cn-ymi"/>
                                                 <constraint firstItem="5Pa-Bv-eCg" firstAttribute="top" secondItem="yTh-S6-ZtL" secondAttribute="topMargin" constant="12" id="Rzs-UN-Ov1"/>
                                                 <constraint firstItem="ELk-9n-Bk1" firstAttribute="leading" secondItem="yTh-S6-ZtL" secondAttribute="leadingMargin" id="aki-Az-FVW"/>
-                                                <constraint firstItem="oTD-Fg-fcw" firstAttribute="leading" secondItem="yTh-S6-ZtL" secondAttribute="leadingMargin" constant="32" id="bYy-k1-Joa"/>
+                                                <constraint firstItem="oTD-Fg-fcw" firstAttribute="leading" secondItem="yTh-S6-ZtL" secondAttribute="leadingMargin" id="bYy-k1-Joa"/>
                                                 <constraint firstItem="ELk-9n-Bk1" firstAttribute="top" secondItem="oTD-Fg-fcw" secondAttribute="bottom" constant="8" id="f6X-JP-MTN"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="5Pa-Bv-eCg" secondAttribute="trailing" constant="32" id="lfW-sg-1qq"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5Pa-Bv-eCg" secondAttribute="trailing" id="lfW-sg-1qq"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
